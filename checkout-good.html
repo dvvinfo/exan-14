@@ -1,1 +1,100 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="css/style.min.css"><title>checkout-good</title></head><body><div class="content-wrap"><div class="content-layout"><div class="exan-checkout"><div class="d-none d-sm-block w-1 flex-shrink-0 c-bg-tef mx-5"></div><div class="d-sm-none h-1 c-bg-tef my-40"></div><div class="w-100"><div class="h2 mb-3">2. Оформление заказа</div><div class="card-course__cost text d-flex align-items-center db">Цена курса:<div class="card-course__cost text fz-18 d-flex align-items-center ml-sm-1"><span>$ 777 </span><span class="gray text pl-1">или</span> <span class="card-course__cost-old text _sm c-t99 d-inline-block mr-2"><img class="ml-2" src="./img/ic-poker-chip.svg" alt=""></span><span class="card-course__cost-old text c-t99 d-inline-block mr-2 card-course__text fz-18">777 EXP-очков</span></div></div><div class="exan-checkout__sale"><s class="card-course__cost-old text _sm c-t99 d-inline-block mr-2">$ 1090 </s><span class="course-page__sale">СКИДКА 30%</span></div><div class="form-dropdown mt-4 mt-sm-40 js-popover js-dropdown"><input class="js-dropdown-val" type="hidden"><div class="form-control text-truncate js-popover-trigger js-dropdown-field">Баланс EXP-очков</div><div class="form-input__wrap"><div class="form-input__error">Описание ошибки</div></div><div class="form-dropdown__icon icon icon-arrow-down"></div><div class="popover js-custom-scroll"><div class="p-3 smt-10"><div class="form-dropdown__item text sm-item js-dropdown-item" data-template="20Z020322" data-type="WebMoney" data-requisite="Z324324343">WebMoney</div><div class="form-dropdown__item text sm-item js-dropdown-item" data-template="template@gmail.com" data-type="Skrill" data-requisite="money@exan13.com">Skrill</div></div></div></div><div class="d-none" id="requsites-body"><div class="align-items-center mb-14"><img src="media/img/icon_pay-webmoney.svg" alt="Icon Purse" style="padding-right: 6px">Сделайте перевод по данным реквизитам</div><div class="hint-requisites" id="hint-requisites">Z3243243432</div><div class="form-input"><input class="form-control" type="text" placeholder="Укажите ваши реквизиты*" id="requisite-input"><div class="form-input__label">Ваши реквизиты</div><div class="form-input__wrap mb-14"><div class="form-input__info smt-10"><div class="sm-item d-flex align-items-start"><div class="s-20 fs-20 icon icon-triangle c-yellow mr-1"></div><div class="text _sm c-t99">Например:<span id="requisites-hint">-</span></div></div></div><div class="form-input__error"><div class="d-flex align-items-center"><div class="s-20 fs-20 icon icon-close c-red mr-1"></div><div class="text _sm c-red">Реквизиты указаны не верно</div></div></div><div class="form-input__success"><div class="d-flex align-items-center"><div class="s-20 fs-20 icon icon-check-circle c-green mr-1"></div><div class="text _sm c-green">Реквизиты указаны верно</div></div></div></div></div></div><button class="btn _block _lblue _lg mb-40">Оформить заказ</button><div id="promo-code"><button class="btn d-flex align-center"><img class="mr-6" src="./img/ic-tag.svg">Использовать промо-код</button><div class="form-input mt-14 mb-14 d-none"><input class="form-control" type="text" value="Z324324343" placeholder="Промо-код"><div class="form-input__label">Промо-код</div><button class="btn _in-input" type="button">Применить</button></div></div><div id="ref-code"><button class="btn d-flex align-center" type="button"><img class="mr-6" src="./img/LinkOutlined.svg">Использовать реферальный код</button><div class="form-input mt-14 d-none mt-40"><input class="form-control" type="text" placeholder="Реферальный код"><div class="form-input__label">Реферальный код</div></div></div></div><div class="d-none d-sm-block w-1 flex-shrink-0 c-bg-tef mx-5"></div></div></div></div></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>checkout-good</title>
+</head>
+
+<body>
+    <div class="content-wrap">
+        <div class="content-layout">
+            <div class="exan-checkout">
+                <div class="d-none d-sm-block w-1 flex-shrink-0 c-bg-tef mx-5"></div>
+                <div class="d-sm-none h-1 c-bg-tef my-40"></div>
+                <div class="w-100">
+                    <div class="h2 mb-3">2. Оформление заказа</div>
+                    <div class="card-course__cost text d-flex align-items-center db">Цена курса:<div
+                            class="card-course__cost text fz-18 d-flex align-items-center ml-sm-1"><span>$ 777
+                            </span><span class="gray text pl-1">или</span> <span
+                                class="card-course__cost-old text _sm c-t99 d-inline-block mr-2"><img class="ml-2"
+                                    src="./img/ic-poker-chip.svg" alt=""></span><span
+                                class="card-course__cost-old text c-t99 d-inline-block mr-2 card-course__text fz-18">777
+                                EXP-очков</span></div>
+                    </div>
+                    <div class="exan-checkout__sale"><s
+                            class="card-course__cost-old text _sm c-t99 d-inline-block mr-2">$ 1090 </s><span
+                            class="course-page__sale">СКИДКА 30%</span></div>
+                    <div class="form-dropdown mt-4 mt-sm-40 js-popover js-dropdown"><input class="js-dropdown-val"
+                            type="hidden">
+                        <div class="form-control text-truncate js-popover-trigger js-dropdown-field">Баланс EXP-очков
+                        </div>
+                        <div class="form-input__wrap">
+                            <div class="form-input__error">Описание ошибки</div>
+                        </div>
+                        <div class="form-dropdown__icon icon icon-arrow-down"></div>
+                        <div class="popover js-custom-scroll">
+                            <div class="p-3 smt-10">
+                                <div class="form-dropdown__item text sm-item js-dropdown-item" data-template="20Z020322"
+                                    data-type="WebMoney" data-requisite="Z324324343">WebMoney</div>
+                                <div class="form-dropdown__item text sm-item js-dropdown-item"
+                                    data-template="template@gmail.com" data-type="Skrill"
+                                    data-requisite="money@exan13.com">Skrill</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none" id="requsites-body">
+                        <div class="align-items-center mb-14"><img src="media/img/icon_pay-webmoney.svg"
+                                alt="Icon Purse" style="padding-right: 6px">Сделайте перевод по данным реквизитам</div>
+                        <div class="hint-requisites" id="hint-requisites">Z3243243432</div>
+                        <div class="form-input"><input class="form-control" type="text"
+                                placeholder="Укажите ваши реквизиты*" id="requisite-input">
+                            <div class="form-input__label">Ваши реквизиты</div>
+                            <div class="form-input__wrap mb-14">
+                                <div class="form-input__info smt-10">
+                                    <div class="sm-item d-flex align-items-start">
+                                        <div class="s-20 fs-20 icon icon-triangle c-yellow mr-1"></div>
+                                        <div class="text _sm c-t99">Например:<span id="requisites-hint">-</span></div>
+                                    </div>
+                                </div>
+                                <div class="form-input__error">
+                                    <div class="d-flex align-items-center">
+                                        <div class="s-20 fs-20 icon icon-close c-red mr-1"></div>
+                                        <div class="text _sm c-red">Реквизиты указаны не верно</div>
+                                    </div>
+                                </div>
+                                <div class="form-input__success">
+                                    <div class="d-flex align-items-center">
+                                        <div class="s-20 fs-20 icon icon-check-circle c-green mr-1"></div>
+                                        <div class="text _sm c-green">Реквизиты указаны верно</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><button class="btn _block _lblue _lg mb-40">Оформить заказ</button>
+                    <div id="promo-code"><button class="btn d-flex align-center"><img class="mr-6"
+                                src="./img/ic-tag.svg">Использовать промо-код</button>
+                        <div class="form-input mt-14 mb-14 d-none"><input class="form-control" type="text"
+                                value="Z324324343" placeholder="Промо-код">
+                            <div class="form-input__label">Промо-код</div><button class="btn _in-input"
+                                type="button">Применить</button>
+                        </div>
+                    </div>
+                    <div id="ref-code"><button class="btn d-flex align-center" type="button"><img class="mr-6"
+                                src="./img/LinkOutlined.svg">Использовать реферальный код</button>
+                        <div class="form-input mt-14 d-none mt-40"><input class="form-control" type="text"
+                                placeholder="Реферальный код">
+                            <div class="form-input__label">Реферальный код</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block w-1 flex-shrink-0 c-bg-tef mx-5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
